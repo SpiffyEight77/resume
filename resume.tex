@@ -1,0 +1,131 @@
+\documentclass{resume}
+
+\newcommand{\en}[1]{#1}
+\newcommand{\zh}[1]{}
+
+\zh{\usepackage{xeCJK}}
+\zh{\setCJKmainfont{Source Han Serif SC}}
+\zh{\setCJKsansfont{Source Han Sans CN}}
+\zh{\setCJKmonofont{Source Han Sans CN}}
+
+\begin{document}
+% \thispagestyle{empty}
+    
+\name{\en{Ruihua Wen}\zh{温锐华}}
+\basicInfo{
+      \email{spiffyeight77@gmail.com} \textperiodcentered\
+      \phone{+(86) 155-2924-8036} \textperiodcentered\
+      \github[SpiffyEight77]{https://github.com/SpiffyEight77} \textperiodcentered\
+      \homepage[Blog]{https://blog.spiffyeight77.com}
+}
+
+\section{\faGraduationCap\ \en{Education}\zh{教育经历}}
+\en{\datedsubsection{\textbf{Xi’an Eurasia University}, Xi'an, Shaanxi}{09/2015 -- 07/2019}}
+\zh{\datedsubsection{\textbf{西安欧亚学院}, 西安，陕西}{2015/09 -- 2019/07}}
+\begin{itemize}
+      \item \en{Bachelor's Degree, Major: Software Engineering, School of Information Engineering}
+            \zh{学士，统招本科软件工程，信息工程学院}
+\end{itemize}
+
+\section{\faUsers\ \en{Work Experience}\zh{工作经历}}
+\en{\datedsubsection{\textbf{\href{http://www.seetatech.com/index_e.html}{SeetaTech Inc.}}, Beijing, China}{08/2018 -- 01/2019}}
+\zh{\datedsubsection{\textbf{\href{http://www.seetatech.com/}{中科视拓（北京）科技有限公司（SeetaTech Inc.）}}}{2018/08 -- 2019/01}}
+\en{\role{Algorithmic Middleware Department}{R\&D Intern, Golang}}
+\zh{\role{算法中间件部门}{后端研发实习}}
+\begin{itemize}
+      \item \en{Back-end development work related to the SeeTass deep learning platform, development and maintenance of RESTful APIs using Go language, gin and other components.}
+            \zh{SeeTass 深度学习平台相关的后端研发工作，使用 Go 语言、gin 等组件进行RESTful API开发与维护}
+      \item \en{Participation in the production of Docker images for user use containing the integrated environment for deep learning boxes such as MXNet, Caffe, etc.}
+            \zh{参与制作面向用户使用的包含 MXNet、Caffe 等深度学习框集成环境的 Docker 镜像}
+         
+\end{itemize}
+
+\en{\datedsubsection{\textbf{\href{https://www.ucloud.cn/}{UCloud Inc.}}, Beijing, China}{02/2019 -- 04/2020}}
+\zh{\datedsubsection{\textbf{\href{https://www.ucloud.cn/}{北京优刻得科技有限公司（UCloud Inc.）}}}{2019/02 -- 2020/04}}
+\en{\role{Computing Product Development Department}{Back End Development Engineer}}
+\zh{\role{计算产品研发部}{后台研发工程师}}
+\begin{itemize}
+      \item \en{Responsible for the back-end development of the cross-room cross-availability mirroring system (humming) within the public cloud business, development and maintenance of RESTful APIs using components such as Go, gin, protobuf etc.}
+            \zh{负责公有云业务内部跨机房跨可用镜像发布系统（humming）相关的后端研发工作，使用 Go 语言、gin、protobuf等组件进行 RESTful API的开发与维护。}
+      \item \en{Also involved in front-end research and development work related to the mirror publishing system of SRE's public cloud OMS, mainly using JavaScript language, React.js for front-end page design and implementation.}   
+            \zh{ 同时参与 SRE 部门公有云运维管理系统镜像发布系统相关的前端研发工作，主要使用 JavaScript 语言，React.js 进行前端页面设计与实现}
+      \item \en{Responsible for physical cloud business related back-end research and development as well as hardware operation and maintenance, using node.js, JavaScript language for API, physical cloud operation and maintenance management system development and maintenance. Standardised and optimised the process of making physical cloud images, installation and adaptation.}
+            \zh{负责物理云业务相关的后端研发以及硬件运维工作，使用 node.js、JavaScript 语言进行 API、物理云运维管理系统的开发与维护。规范并优化了物理云镜像制作、装机适配流程。}
+      \item \en{Work cross-departmentally with product lines such as UHadoop, UAI, UK8s, etc., providing them with business base mirroring and API calls.}
+            \zh{与 UHadoop、UAI、UK8s等产品线进行跨部门合作，为其提供业务基础镜像以及 API 调用}
+      \item \en{Stable operation of the business was ensured during the tenure, with no major incidents apart from the usual uncontrollable hardware failures.}
+            \zh{任职期间保证了业务稳定运行，除常见不可控硬件故障外，无重大事故发生}
+\end{itemize}
+
+\section{\faGithubAlt\ \en{Portfolios}\zh{个人项目}}
+\datedsubsection{\textbf{portfolio}}{\url{https://github.com/SpiffyEight77/portfolio}}
+\en{Distributed key-value database based on Raft and Percolator models}
+\zh{基于 Vue.js 的个人主页卡片设计}
+\begin{itemize}
+      \item \en{Implementation based on Vue.js design.}
+            \zh{基于 Vue.js 设计实现}
+      \item \en{Supports PWA (Progressive Web App) features, screen adaption.}
+            \zh{支持 PWA（Progressive Web App）特性，屏幕自适应}
+      \item \en{Support for one-click deployment to Vercel}
+            \zh{支持一键部署到 Vercel}
+\end{itemize}
+
+\datedsubsection{\textbf{statesWidget.js}}{\url{https://gist.github.com/SpiffyEight77}}
+\en{Status scripts running on the iOS 14 Scriptable App}
+\zh{运行于 iOS 14 Scriptable App 上的状态脚本}
+\begin{itemize}
+      \item \en{Design implementation based on JavaScript and Scriptable API.}
+            \zh{基于 JavaScript 与 Scriptable API 设计实现}
+      \item \en{Support for desktop widgets to display functions such as power, local weather, annual progress, etc.}
+            \zh{支持桌面小组件显示电量、当地天气、年进度等功能}
+\end{itemize}
+
+\section{\faTrophy\ \en{}\zh{个人荣誉}}
+\begin{itemize}
+      \item \en{\datedsubsection{Mathematical Contest In Modelling 2017 Honorable Mention}{01/2017}}
+            \zh{\datedsubsection{2017年美国大学生数学建模竞赛 Honorable Mention}{2017/01}}
+      \item \en{\datedsubsection{The ACM-ICPC Asia Regional Contest Xi'an Site 2017 Honorable Mention}{10/2017}}
+            \zh{\datedsubsection{第42届ACM国际大学生程序设计竞赛亚洲区域赛（西安）Honorable Mention}{2017/10}}
+      \item \en{ \datedsubsection{The Blue Bridge Cup National Software Competition 2017 Third Prize}{05/2018}}
+            \zh{\datedsubsection{第九届蓝桥杯软件类国赛C/C++程序设计竞赛B组 三等奖}{2018/05}}
+\end{itemize}
+
+\section{\faCogs\ \en{Skills}\zh{技能}}
+\begin{itemize}[parsep=0.25ex]
+      \item \en{\textbf{Programming Language}:
+                  \textbf{multilingual} (not limited to any specific language), 
+                  experienced in Golang, 
+                  comfortable with JavaScript/C}
+            \zh{\textbf{编程语言}:
+                  \textbf{泛语言}（编程不受特定语言限制），
+                  熟悉 Golang，
+                  了解 JavaScript/C 等}
+
+      \item \en{\textbf{Developing Tool}:
+                  familiar with Linux-based programming, Vim use,
+                  have experience with team tools like Git, Trello, etc.}
+            \zh{\textbf{开发工具}:
+                  了解 Linux 开发环境，了解 Vim 使用，有 Git 等团队协作工具的使用经验}
+
+      \item \en{\textbf{Others}:
+                  have experience using MySQL/Redis, 
+                  understand Docker and Docker orchestration concepts.}
+            \zh{\textbf{其它}:
+                  有 MySQL/Redis 使用经验，了解容器及容器编排相关概念}
+\end{itemize}
+
+\section{\faInfo\ \en{Miscellaneous}\zh{杂项}}
+\begin{itemize}[parsep=0.25ex]
+      \item \en{Personal Tags: self-driven, strong learner, conscientious, responsible, curious, love open source}
+            \zh{个人标签：自驱动、学习能力强、做事认真、负责任、保持好奇、热爱开源}
+      \item \en{Interest: Distributed systems, cloud computing, virtualisation and web applications, etc.}
+            \zh{兴趣领域：分布式系统、云计算、虚拟化以及 Web 应用等}
+      \item \en{Language level: English CET-4, TOEIC 695 Able to read English materials}
+            \zh{语言水平：英语 CET-4、TOEIC 695 能够阅读英文资料}
+      \item \en{Access to information: via Twitter, Medium, Hacker News, Telegram channels.}
+            \zh{信息获取：通过 Twitter、Medium、Hacker News、Telegram频道来获取信息}
+      \item \en{Work gap: leave to rest at home, spend time with parents, study English and take the ETS TOEIC exams.}
+            \zh{工作空白期：离职在家休息、陪伴父母、复习英语并参加ETS TOEIC 考试}
+\end{itemize}
+
+\end{document}
