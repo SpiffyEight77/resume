@@ -11,6 +11,6 @@ make all
 
 ## Download/下载
 
-- [English version (pdf)](./resume.pdf) Translated by DeepL not ready yet
+- [English version (pdf)](./resume.pdf) Translated by DeepL
 - [中文版 (pdf)](./resume-zh.pdf)
 - [LaTeX Source](./resume.tex)
