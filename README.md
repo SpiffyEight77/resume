@@ -7,6 +7,12 @@ This is my résumé based on [this template](https://github.com/billryan/resume)
 
 If your resume-zh.tex has more than one page you can comment the ```\zh{\thispagestyle{empty}``` in [LaTeX source](./resume.tex) line 13. 
 
+If you is a macOS user you might download the font for the compile
+
+[Source Han Serif SC](https://github.com/adobe-fonts/source-han-serif)
+
+[Source Han Sans CN](https://github.com/adobe-fonts/source-han-sans)
+
 ## Build
 
 ```bash
